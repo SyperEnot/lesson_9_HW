@@ -1,0 +1,17 @@
+{
+  "id": "776-2323",
+  "name": "Bruce Wayne",
+  "accounts": [
+    {
+      "number": "45123481654654",
+      "currency": "RUB",
+      "bank": "VTB"
+    },
+    {
+      "number": "45123481654651",
+      "currency": "US",
+      "bank": "Sber"
+    }
+  ],
+  "active": true
+}
