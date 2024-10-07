@@ -1,0 +1,28 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+            "org.junit.jupiter:junit-jupiter:5.11.1",
+            "com.codeborne:selenide:7.4.2",
+            "commons-io:commons-io:2.15.0",
+            "com.codeborne:pdf-test:1.5.0",
+            "com.codeborne:xls-test:1.4.3",
+            "com.opencsv:opencsv:5.9",
+            "com.fasterxml.jackson.core:jackson-databind:2.18.0",
+            "org.assertj:assertj-core:3.26.3",
+    )
+}
+
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+test {
+    useJUnitPlatform()
+}
